@@ -106,4 +106,134 @@ p {
 .active {
   background: #444;
 }
+/**vp **/
 
+.vp {
+  height: 700px;
+  background: url(../images/cafe1.jpg) center center / cover;
+}
+
+.vp-content {
+  padding-top: 150px;
+  max-width: 500px;
+  color: white;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+.vp-content h1 {
+  font-size: 50px;
+}
+.separator {
+  width: 100px;
+  height: 10px;
+  background: #111;
+  margin: 20px auto;
+}
+.vp-content p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
+}
+
+/* *section 2 **/
+
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+}
+
+.features {
+  padding: 100px 0;
+  overflow: auto;
+  text-align: center;
+}
+.feature {
+  float: left;
+  width: 50%;
+}
+/* *person* */
+.person {
+  height: 400px;
+  background: url(../images/cafe3.jpg) center center / cover;
+}
+/* *reservation* */
+
+.reservation {
+  padding: 100px 0;
+  text-align: center;
+}
+
+footer {
+  background: #222;
+  color: white;
+  padding: 30px 0;
+  text-align: center;
+}
+
+footer p {
+  margin-bottom: 0;
+  font-size: large;
+}
+
+/* *where* */
+
+.where {
+  padding: 180px 0;
+  overflow: auto;
+  min-height: 100vh;
+}
+.where-img {
+  float: left;
+  width: 40%;
+  border: whitesmoke 1px solid;
+  border-radius: 10px;
+}
+.where-text {
+  float: right;
+  width: 50%;
+}
+
+.chip {
+  display: inline-block;
+  background: #333;
+  border-radius: 100%;
+  color: white;
+  width: 26px;
+  text-align: center;
+}
+
+.chip-purple {
+  background: #a0006e;
+}
+.chip-brown {
+  background: #6e491e;
+}
+
+/* *contact* */
+
+.contact {
+  padding: 180px 0;
+  min-height: 100vh;
+}
+
+.contact-form-container {
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form-container form label {
+  display: block;
+  font-weight: 700;
+}
+.contact-form-container form input , textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+}
+.contact-form-container form textarea {
+  min-height: 80px;
+}
